@@ -8,8 +8,12 @@ const List = (props) => {
       {repos.map((repo) => {
         return (
           <li key={repo.id} className='list'>
-            <span className='repo-text'>{repo.title} </span>
-            <span className='repo-description'>{repo.description}</span>
+            <span> Match week - {repo.Round}</span>
+            <span> Date - {repo.Date}</span>
+           
+            <span> home team {repo.["Team 1"]}</span> VS 
+             <span>away team {repo.["Team 2"]}</span> Score 
+            <span className='repo-description'> {repo.FT}</span>
           </li>
         );
       })}
