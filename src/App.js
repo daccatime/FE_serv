@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios'
+//import axios from 'axios'
 
 import './App.css';
 import List from './components/List';
@@ -32,7 +32,7 @@ function App() {
         <div className='footer'>
           Built{' '}
           <span role='img' aria-label='love'>
-            💚
+            💚 xxxx
           </span>{' '}
           with by Shedrack Akintayo
         </div>
